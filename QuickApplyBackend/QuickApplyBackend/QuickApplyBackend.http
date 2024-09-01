@@ -1,0 +1,6 @@
+@QuickApplyBackend_HostAddress = http://localhost:5218
+
+GET {{QuickApplyBackend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

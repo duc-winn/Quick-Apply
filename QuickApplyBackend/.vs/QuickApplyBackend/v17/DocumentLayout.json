@@ -1,0 +1,402 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Duccy\\Documents\\ASP.NET Web API\\QuickApplyBackend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6A18E79B-F809-4222-8EAC-73F5A9091FBE}|QuickApplyBackend\\QuickApplyBackend.csproj|c:\\users\\duccy\\documents\\asp.net web api\\quickapplybackend\\quickapplybackend\\controller\\signincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A18E79B-F809-4222-8EAC-73F5A9091FBE}|QuickApplyBackend\\QuickApplyBackend.csproj|solutionrelative:quickapplybackend\\controller\\signincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A18E79B-F809-4222-8EAC-73F5A9091FBE}|QuickApplyBackend\\QuickApplyBackend.csproj|c:\\users\\duccy\\documents\\asp.net web api\\quickapplybackend\\quickapplybackend\\service\\signinservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A18E79B-F809-4222-8EAC-73F5A9091FBE}|QuickApplyBackend\\QuickApplyBackend.csproj|solutionrelative:quickapplybackend\\service\\signinservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A18E79B-F809-4222-8EAC-73F5A9091FBE}|QuickApplyBackend\\QuickApplyBackend.csproj|c:\\users\\duccy\\documents\\asp.net web api\\quickapplybackend\\quickapplybackend\\controller\\savedjobcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A18E79B-F809-4222-8EAC-73F5A9091FBE}|QuickApplyBackend\\QuickApplyBackend.csproj|solutionrelative:quickapplybackend\\controller\\savedjobcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A18E79B-F809-4222-8EAC-73F5A9091FBE}|QuickApplyBackend\\QuickApplyBackend.csproj|c:\\users\\duccy\\documents\\asp.net web api\\quickapplybackend\\quickapplybackend\\model\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A18E79B-F809-4222-8EAC-73F5A9091FBE}|QuickApplyBackend\\QuickApplyBackend.csproj|solutionrelative:quickapplybackend\\model\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A18E79B-F809-4222-8EAC-73F5A9091FBE}|QuickApplyBackend\\QuickApplyBackend.csproj|c:\\users\\duccy\\documents\\asp.net web api\\quickapplybackend\\quickapplybackend\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A18E79B-F809-4222-8EAC-73F5A9091FBE}|QuickApplyBackend\\QuickApplyBackend.csproj|solutionrelative:quickapplybackend\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A18E79B-F809-4222-8EAC-73F5A9091FBE}|QuickApplyBackend\\QuickApplyBackend.csproj|c:\\users\\duccy\\documents\\asp.net web api\\quickapplybackend\\quickapplybackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A18E79B-F809-4222-8EAC-73F5A9091FBE}|QuickApplyBackend\\QuickApplyBackend.csproj|solutionrelative:quickapplybackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A18E79B-F809-4222-8EAC-73F5A9091FBE}|QuickApplyBackend\\QuickApplyBackend.csproj|c:\\users\\duccy\\documents\\asp.net web api\\quickapplybackend\\quickapplybackend\\model\\appliedjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A18E79B-F809-4222-8EAC-73F5A9091FBE}|QuickApplyBackend\\QuickApplyBackend.csproj|solutionrelative:quickapplybackend\\model\\appliedjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A18E79B-F809-4222-8EAC-73F5A9091FBE}|QuickApplyBackend\\QuickApplyBackend.csproj|c:\\users\\duccy\\documents\\asp.net web api\\quickapplybackend\\quickapplybackend\\model\\employeereferal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A18E79B-F809-4222-8EAC-73F5A9091FBE}|QuickApplyBackend\\QuickApplyBackend.csproj|solutionrelative:quickapplybackend\\model\\employeereferal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A18E79B-F809-4222-8EAC-73F5A9091FBE}|QuickApplyBackend\\QuickApplyBackend.csproj|c:\\users\\duccy\\documents\\asp.net web api\\quickapplybackend\\quickapplybackend\\model\\job.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A18E79B-F809-4222-8EAC-73F5A9091FBE}|QuickApplyBackend\\QuickApplyBackend.csproj|solutionrelative:quickapplybackend\\model\\job.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A18E79B-F809-4222-8EAC-73F5A9091FBE}|QuickApplyBackend\\QuickApplyBackend.csproj|c:\\users\\duccy\\documents\\asp.net web api\\quickapplybackend\\quickapplybackend\\model\\jobreference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A18E79B-F809-4222-8EAC-73F5A9091FBE}|QuickApplyBackend\\QuickApplyBackend.csproj|solutionrelative:quickapplybackend\\model\\jobreference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A18E79B-F809-4222-8EAC-73F5A9091FBE}|QuickApplyBackend\\QuickApplyBackend.csproj|c:\\users\\duccy\\documents\\asp.net web api\\quickapplybackend\\quickapplybackend\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A18E79B-F809-4222-8EAC-73F5A9091FBE}|QuickApplyBackend\\QuickApplyBackend.csproj|solutionrelative:quickapplybackend\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A18E79B-F809-4222-8EAC-73F5A9091FBE}|QuickApplyBackend\\QuickApplyBackend.csproj|c:\\users\\duccy\\documents\\asp.net web api\\quickapplybackend\\quickapplybackend\\dto\\appliedjobdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A18E79B-F809-4222-8EAC-73F5A9091FBE}|QuickApplyBackend\\QuickApplyBackend.csproj|solutionrelative:quickapplybackend\\dto\\appliedjobdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A18E79B-F809-4222-8EAC-73F5A9091FBE}|QuickApplyBackend\\QuickApplyBackend.csproj|c:\\users\\duccy\\documents\\asp.net web api\\quickapplybackend\\quickapplybackend\\controller\\appliedjobcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A18E79B-F809-4222-8EAC-73F5A9091FBE}|QuickApplyBackend\\QuickApplyBackend.csproj|solutionrelative:quickapplybackend\\controller\\appliedjobcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A18E79B-F809-4222-8EAC-73F5A9091FBE}|QuickApplyBackend\\QuickApplyBackend.csproj|c:\\users\\duccy\\documents\\asp.net web api\\quickapplybackend\\quickapplybackend\\controller\\jobreferencecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A18E79B-F809-4222-8EAC-73F5A9091FBE}|QuickApplyBackend\\QuickApplyBackend.csproj|solutionrelative:quickapplybackend\\controller\\jobreferencecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A18E79B-F809-4222-8EAC-73F5A9091FBE}|QuickApplyBackend\\QuickApplyBackend.csproj|c:\\users\\duccy\\documents\\asp.net web api\\quickapplybackend\\quickapplybackend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6A18E79B-F809-4222-8EAC-73F5A9091FBE}|QuickApplyBackend\\QuickApplyBackend.csproj|solutionrelative:quickapplybackend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A18E79B-F809-4222-8EAC-73F5A9091FBE}|QuickApplyBackend\\QuickApplyBackend.csproj|c:\\users\\duccy\\documents\\asp.net web api\\quickapplybackend\\quickapplybackend\\database_context\\quickapplycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A18E79B-F809-4222-8EAC-73F5A9091FBE}|QuickApplyBackend\\QuickApplyBackend.csproj|solutionrelative:quickapplybackend\\database_context\\quickapplycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A18E79B-F809-4222-8EAC-73F5A9091FBE}|QuickApplyBackend\\QuickApplyBackend.csproj|c:\\users\\duccy\\documents\\asp.net web api\\quickapplybackend\\quickapplybackend\\service\\savedjobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A18E79B-F809-4222-8EAC-73F5A9091FBE}|QuickApplyBackend\\QuickApplyBackend.csproj|solutionrelative:quickapplybackend\\service\\savedjobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A18E79B-F809-4222-8EAC-73F5A9091FBE}|QuickApplyBackend\\QuickApplyBackend.csproj|c:\\users\\duccy\\documents\\asp.net web api\\quickapplybackend\\quickapplybackend\\service\\jobreferenceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A18E79B-F809-4222-8EAC-73F5A9091FBE}|QuickApplyBackend\\QuickApplyBackend.csproj|solutionrelative:quickapplybackend\\service\\jobreferenceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A18E79B-F809-4222-8EAC-73F5A9091FBE}|QuickApplyBackend\\QuickApplyBackend.csproj|c:\\users\\duccy\\documents\\asp.net web api\\quickapplybackend\\quickapplybackend\\service\\appliedjobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A18E79B-F809-4222-8EAC-73F5A9091FBE}|QuickApplyBackend\\QuickApplyBackend.csproj|solutionrelative:quickapplybackend\\service\\appliedjobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A18E79B-F809-4222-8EAC-73F5A9091FBE}|QuickApplyBackend\\QuickApplyBackend.csproj|c:\\users\\duccy\\documents\\asp.net web api\\quickapplybackend\\quickapplybackend\\quickapplybackend.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{6A18E79B-F809-4222-8EAC-73F5A9091FBE}|QuickApplyBackend\\QuickApplyBackend.csproj|solutionrelative:quickapplybackend\\quickapplybackend.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A18E79B-F809-4222-8EAC-73F5A9091FBE}|QuickApplyBackend\\QuickApplyBackend.csproj|c:\\users\\duccy\\documents\\asp.net web api\\quickapplybackend\\quickapplybackend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6A18E79B-F809-4222-8EAC-73F5A9091FBE}|QuickApplyBackend\\QuickApplyBackend.csproj|solutionrelative:quickapplybackend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A18E79B-F809-4222-8EAC-73F5A9091FBE}|QuickApplyBackend\\QuickApplyBackend.csproj|c:\\users\\duccy\\documents\\asp.net web api\\quickapplybackend\\quickapplybackend\\migrations\\20240824231555_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A18E79B-F809-4222-8EAC-73F5A9091FBE}|QuickApplyBackend\\QuickApplyBackend.csproj|solutionrelative:quickapplybackend\\migrations\\20240824231555_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 324,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Duccy\\Documents\\ASP.NET Web API\\QuickApplyBackend\\QuickApplyBackend\\Model\\LoginResponse.cs",
+              "RelativeDocumentMoniker": "QuickApplyBackend\\Model\\LoginResponse.cs",
+              "ToolTip": "C:\\Users\\Duccy\\Documents\\ASP.NET Web API\\QuickApplyBackend\\QuickApplyBackend\\Model\\LoginResponse.cs",
+              "RelativeToolTip": "QuickApplyBackend\\Model\\LoginResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T03:08:38.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SignInController.cs",
+              "DocumentMoniker": "C:\\Users\\Duccy\\Documents\\ASP.NET Web API\\QuickApplyBackend\\QuickApplyBackend\\Controller\\SignInController.cs",
+              "RelativeDocumentMoniker": "QuickApplyBackend\\Controller\\SignInController.cs",
+              "ToolTip": "C:\\Users\\Duccy\\Documents\\ASP.NET Web API\\QuickApplyBackend\\QuickApplyBackend\\Controller\\SignInController.cs",
+              "RelativeToolTip": "QuickApplyBackend\\Controller\\SignInController.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAuwDwAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T01:26:28.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Duccy\\Documents\\ASP.NET Web API\\QuickApplyBackend\\QuickApplyBackend\\DTO\\UserDTO.cs",
+              "RelativeDocumentMoniker": "QuickApplyBackend\\DTO\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\Duccy\\Documents\\ASP.NET Web API\\QuickApplyBackend\\QuickApplyBackend\\DTO\\UserDTO.cs",
+              "RelativeToolTip": "QuickApplyBackend\\DTO\\UserDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T01:24:39.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Duccy\\Documents\\ASP.NET Web API\\QuickApplyBackend\\QuickApplyBackend\\Program.cs",
+              "RelativeDocumentMoniker": "QuickApplyBackend\\Program.cs",
+              "ToolTip": "C:\\Users\\Duccy\\Documents\\ASP.NET Web API\\QuickApplyBackend\\QuickApplyBackend\\Program.cs",
+              "RelativeToolTip": "QuickApplyBackend\\Program.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAwwDIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T21:56:14.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SavedJobController.cs",
+              "DocumentMoniker": "C:\\Users\\Duccy\\Documents\\ASP.NET Web API\\QuickApplyBackend\\QuickApplyBackend\\Controller\\SavedJobController.cs",
+              "RelativeDocumentMoniker": "QuickApplyBackend\\Controller\\SavedJobController.cs",
+              "ToolTip": "C:\\Users\\Duccy\\Documents\\ASP.NET Web API\\QuickApplyBackend\\QuickApplyBackend\\Controller\\SavedJobController.cs",
+              "RelativeToolTip": "QuickApplyBackend\\Controller\\SavedJobController.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAkwAwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T05:39:47.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SignInService.cs",
+              "DocumentMoniker": "C:\\Users\\Duccy\\Documents\\ASP.NET Web API\\QuickApplyBackend\\QuickApplyBackend\\Service\\SignInService.cs",
+              "RelativeDocumentMoniker": "QuickApplyBackend\\Service\\SignInService.cs",
+              "ToolTip": "C:\\Users\\Duccy\\Documents\\ASP.NET Web API\\QuickApplyBackend\\QuickApplyBackend\\Service\\SignInService.cs",
+              "RelativeToolTip": "QuickApplyBackend\\Service\\SignInService.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAD4vz0AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T01:42:30.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppliedJob.cs",
+              "DocumentMoniker": "C:\\Users\\Duccy\\Documents\\ASP.NET Web API\\QuickApplyBackend\\QuickApplyBackend\\Model\\AppliedJob.cs",
+              "RelativeDocumentMoniker": "QuickApplyBackend\\Model\\AppliedJob.cs",
+              "ToolTip": "C:\\Users\\Duccy\\Documents\\ASP.NET Web API\\QuickApplyBackend\\QuickApplyBackend\\Model\\AppliedJob.cs",
+              "RelativeToolTip": "QuickApplyBackend\\Model\\AppliedJob.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T21:08:06.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "JobReference.cs",
+              "DocumentMoniker": "C:\\Users\\Duccy\\Documents\\ASP.NET Web API\\QuickApplyBackend\\QuickApplyBackend\\Model\\JobReference.cs",
+              "RelativeDocumentMoniker": "QuickApplyBackend\\Model\\JobReference.cs",
+              "ToolTip": "C:\\Users\\Duccy\\Documents\\ASP.NET Web API\\QuickApplyBackend\\QuickApplyBackend\\Model\\JobReference.cs",
+              "RelativeToolTip": "QuickApplyBackend\\Model\\JobReference.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T01:55:49.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Job.cs",
+              "DocumentMoniker": "C:\\Users\\Duccy\\Documents\\ASP.NET Web API\\QuickApplyBackend\\QuickApplyBackend\\Model\\Job.cs",
+              "RelativeDocumentMoniker": "QuickApplyBackend\\Model\\Job.cs",
+              "ToolTip": "C:\\Users\\Duccy\\Documents\\ASP.NET Web API\\QuickApplyBackend\\QuickApplyBackend\\Model\\Job.cs",
+              "RelativeToolTip": "QuickApplyBackend\\Model\\Job.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAgAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T05:34:16.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EmployeeReferal.cs",
+              "DocumentMoniker": "C:\\Users\\Duccy\\Documents\\ASP.NET Web API\\QuickApplyBackend\\QuickApplyBackend\\Model\\EmployeeReferal.cs",
+              "RelativeDocumentMoniker": "QuickApplyBackend\\Model\\EmployeeReferal.cs",
+              "ToolTip": "C:\\Users\\Duccy\\Documents\\ASP.NET Web API\\QuickApplyBackend\\QuickApplyBackend\\Model\\EmployeeReferal.cs",
+              "RelativeToolTip": "QuickApplyBackend\\Model\\EmployeeReferal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T21:59:55.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Duccy\\Documents\\ASP.NET Web API\\QuickApplyBackend\\QuickApplyBackend\\Model\\User.cs",
+              "RelativeDocumentMoniker": "QuickApplyBackend\\Model\\User.cs",
+              "ToolTip": "C:\\Users\\Duccy\\Documents\\ASP.NET Web API\\QuickApplyBackend\\QuickApplyBackend\\Model\\User.cs",
+              "RelativeToolTip": "QuickApplyBackend\\Model\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T22:33:45.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AppliedJobDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Duccy\\Documents\\ASP.NET Web API\\QuickApplyBackend\\QuickApplyBackend\\DTO\\AppliedJobDTO.cs",
+              "RelativeDocumentMoniker": "QuickApplyBackend\\DTO\\AppliedJobDTO.cs",
+              "ToolTip": "C:\\Users\\Duccy\\Documents\\ASP.NET Web API\\QuickApplyBackend\\QuickApplyBackend\\DTO\\AppliedJobDTO.cs",
+              "RelativeToolTip": "QuickApplyBackend\\DTO\\AppliedJobDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T21:07:39.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AppliedJobController.cs",
+              "DocumentMoniker": "C:\\Users\\Duccy\\Documents\\ASP.NET Web API\\QuickApplyBackend\\QuickApplyBackend\\Controller\\AppliedJobController.cs",
+              "RelativeDocumentMoniker": "QuickApplyBackend\\Controller\\AppliedJobController.cs",
+              "ToolTip": "C:\\Users\\Duccy\\Documents\\ASP.NET Web API\\QuickApplyBackend\\QuickApplyBackend\\Controller\\AppliedJobController.cs",
+              "RelativeToolTip": "QuickApplyBackend\\Controller\\AppliedJobController.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAkwBMAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T21:07:23.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "JobReferenceController.cs",
+              "DocumentMoniker": "C:\\Users\\Duccy\\Documents\\ASP.NET Web API\\QuickApplyBackend\\QuickApplyBackend\\Controller\\JobReferenceController.cs",
+              "RelativeDocumentMoniker": "QuickApplyBackend\\Controller\\JobReferenceController.cs",
+              "ToolTip": "C:\\Users\\Duccy\\Documents\\ASP.NET Web API\\QuickApplyBackend\\QuickApplyBackend\\Controller\\JobReferenceController.cs",
+              "RelativeToolTip": "QuickApplyBackend\\Controller\\JobReferenceController.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAgwCAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T01:49:49.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Duccy\\Documents\\ASP.NET Web API\\QuickApplyBackend\\QuickApplyBackend\\appsettings.json",
+              "RelativeDocumentMoniker": "QuickApplyBackend\\appsettings.json",
+              "ToolTip": "C:\\Users\\Duccy\\Documents\\ASP.NET Web API\\QuickApplyBackend\\QuickApplyBackend\\appsettings.json",
+              "RelativeToolTip": "QuickApplyBackend\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-09T05:39:12.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "QuickApplyContext.cs",
+              "DocumentMoniker": "C:\\Users\\Duccy\\Documents\\ASP.NET Web API\\QuickApplyBackend\\QuickApplyBackend\\Database_Context\\QuickApplyContext.cs",
+              "RelativeDocumentMoniker": "QuickApplyBackend\\Database_Context\\QuickApplyContext.cs",
+              "ToolTip": "C:\\Users\\Duccy\\Documents\\ASP.NET Web API\\QuickApplyBackend\\QuickApplyBackend\\Database_Context\\QuickApplyContext.cs",
+              "RelativeToolTip": "QuickApplyBackend\\Database_Context\\QuickApplyContext.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T05:08:15.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SavedJobService.cs",
+              "DocumentMoniker": "C:\\Users\\Duccy\\Documents\\ASP.NET Web API\\QuickApplyBackend\\QuickApplyBackend\\Service\\SavedJobService.cs",
+              "RelativeDocumentMoniker": "QuickApplyBackend\\Service\\SavedJobService.cs",
+              "ToolTip": "C:\\Users\\Duccy\\Documents\\ASP.NET Web API\\QuickApplyBackend\\QuickApplyBackend\\Service\\SavedJobService.cs",
+              "RelativeToolTip": "QuickApplyBackend\\Service\\SavedJobService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T05:38:39.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "JobReferenceService.cs",
+              "DocumentMoniker": "C:\\Users\\Duccy\\Documents\\ASP.NET Web API\\QuickApplyBackend\\QuickApplyBackend\\Service\\JobReferenceService.cs",
+              "RelativeDocumentMoniker": "QuickApplyBackend\\Service\\JobReferenceService.cs",
+              "ToolTip": "C:\\Users\\Duccy\\Documents\\ASP.NET Web API\\QuickApplyBackend\\QuickApplyBackend\\Service\\JobReferenceService.cs",
+              "RelativeToolTip": "QuickApplyBackend\\Service\\JobReferenceService.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwCwAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T02:00:36.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AppliedJobService.cs",
+              "DocumentMoniker": "C:\\Users\\Duccy\\Documents\\ASP.NET Web API\\QuickApplyBackend\\QuickApplyBackend\\Service\\AppliedJobService.cs",
+              "RelativeDocumentMoniker": "QuickApplyBackend\\Service\\AppliedJobService.cs",
+              "ToolTip": "C:\\Users\\Duccy\\Documents\\ASP.NET Web API\\QuickApplyBackend\\QuickApplyBackend\\Service\\AppliedJobService.cs",
+              "RelativeToolTip": "QuickApplyBackend\\Service\\AppliedJobService.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAqwC8AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T21:08:42.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "QuickApplyBackend.http",
+              "DocumentMoniker": "C:\\Users\\Duccy\\Documents\\ASP.NET Web API\\QuickApplyBackend\\QuickApplyBackend\\QuickApplyBackend.http",
+              "RelativeDocumentMoniker": "QuickApplyBackend\\QuickApplyBackend.http",
+              "ToolTip": "C:\\Users\\Duccy\\Documents\\ASP.NET Web API\\QuickApplyBackend\\QuickApplyBackend\\QuickApplyBackend.http",
+              "RelativeToolTip": "QuickApplyBackend\\QuickApplyBackend.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-08-06T21:56:43.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Duccy\\Documents\\ASP.NET Web API\\QuickApplyBackend\\QuickApplyBackend\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "QuickApplyBackend\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Duccy\\Documents\\ASP.NET Web API\\QuickApplyBackend\\QuickApplyBackend\\Properties\\launchSettings.json",
+              "RelativeToolTip": "QuickApplyBackend\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAsAAAAAAAAAAABRwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-06T22:01:14.782Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 76,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "20240824231555_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\Duccy\\Documents\\ASP.NET Web API\\QuickApplyBackend\\QuickApplyBackend\\Migrations\\20240824231555_Initial.cs",
+              "RelativeDocumentMoniker": "QuickApplyBackend\\Migrations\\20240824231555_Initial.cs",
+              "ToolTip": "C:\\Users\\Duccy\\Documents\\ASP.NET Web API\\QuickApplyBackend\\QuickApplyBackend\\Migrations\\20240824231555_Initial.cs",
+              "RelativeToolTip": "QuickApplyBackend\\Migrations\\20240824231555_Initial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T23:15:56.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

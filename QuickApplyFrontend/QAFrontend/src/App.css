@@ -1,0 +1,9 @@
+
+.get-started-button{
+  background-image: linear-gradient(30deg, #A167A5, #1f56cb);
+}
+
+.map-display{
+  height: 85vh;
+  width: 100%;
+}
