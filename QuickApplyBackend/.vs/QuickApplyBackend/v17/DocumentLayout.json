@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Duccy\\Documents\\ASP.NET Web API\\QuickApplyBackend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6A18E79B-F809-4222-8EAC-73F5A9091FBE}|QuickApplyBackend\\QuickApplyBackend.csproj|c:\\users\\duccy\\documents\\asp.net web api\\quickapplybackend\\quickapplybackend\\service\\signinservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A18E79B-F809-4222-8EAC-73F5A9091FBE}|QuickApplyBackend\\QuickApplyBackend.csproj|solutionrelative:quickapplybackend\\service\\signinservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6A18E79B-F809-4222-8EAC-73F5A9091FBE}|QuickApplyBackend\\QuickApplyBackend.csproj|c:\\users\\duccy\\documents\\asp.net web api\\quickapplybackend\\quickapplybackend\\controller\\signincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A18E79B-F809-4222-8EAC-73F5A9091FBE}|QuickApplyBackend\\QuickApplyBackend.csproj|solutionrelative:quickapplybackend\\controller\\signincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A18E79B-F809-4222-8EAC-73F5A9091FBE}|QuickApplyBackend\\QuickApplyBackend.csproj|c:\\users\\duccy\\documents\\asp.net web api\\quickapplybackend\\quickapplybackend\\service\\signinservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A18E79B-F809-4222-8EAC-73F5A9091FBE}|QuickApplyBackend\\QuickApplyBackend.csproj|solutionrelative:quickapplybackend\\service\\signinservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6A18E79B-F809-4222-8EAC-73F5A9091FBE}|QuickApplyBackend\\QuickApplyBackend.csproj|c:\\users\\duccy\\documents\\asp.net web api\\quickapplybackend\\quickapplybackend\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A18E79B-F809-4222-8EAC-73F5A9091FBE}|QuickApplyBackend\\QuickApplyBackend.csproj|solutionrelative:quickapplybackend\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6A18E79B-F809-4222-8EAC-73F5A9091FBE}|QuickApplyBackend\\QuickApplyBackend.csproj|c:\\users\\duccy\\documents\\asp.net web api\\quickapplybackend\\quickapplybackend\\controller\\savedjobcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6A18E79B-F809-4222-8EAC-73F5A9091FBE}|QuickApplyBackend\\QuickApplyBackend.csproj|c:\\users\\duccy\\documents\\asp.net web api\\quickapplybackend\\quickapplybackend\\model\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A18E79B-F809-4222-8EAC-73F5A9091FBE}|QuickApplyBackend\\QuickApplyBackend.csproj|solutionrelative:quickapplybackend\\model\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A18E79B-F809-4222-8EAC-73F5A9091FBE}|QuickApplyBackend\\QuickApplyBackend.csproj|c:\\users\\duccy\\documents\\asp.net web api\\quickapplybackend\\quickapplybackend\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A18E79B-F809-4222-8EAC-73F5A9091FBE}|QuickApplyBackend\\QuickApplyBackend.csproj|solutionrelative:quickapplybackend\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6A18E79B-F809-4222-8EAC-73F5A9091FBE}|QuickApplyBackend\\QuickApplyBackend.csproj|c:\\users\\duccy\\documents\\asp.net web api\\quickapplybackend\\quickapplybackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -98,11 +98,11 @@
       "DocumentGroups": [
         {
           "DockedHeight": 324,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "LoginResponse.cs",
               "DocumentMoniker": "C:\\Users\\Duccy\\Documents\\ASP.NET Web API\\QuickApplyBackend\\QuickApplyBackend\\Model\\LoginResponse.cs",
               "RelativeDocumentMoniker": "QuickApplyBackend\\Model\\LoginResponse.cs",
@@ -110,25 +110,23 @@
               "RelativeToolTip": "QuickApplyBackend\\Model\\LoginResponse.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-17T03:08:38.236Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-17T03:08:38.236Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "SignInController.cs",
               "DocumentMoniker": "C:\\Users\\Duccy\\Documents\\ASP.NET Web API\\QuickApplyBackend\\QuickApplyBackend\\Controller\\SignInController.cs",
               "RelativeDocumentMoniker": "QuickApplyBackend\\Controller\\SignInController.cs",
               "ToolTip": "C:\\Users\\Duccy\\Documents\\ASP.NET Web API\\QuickApplyBackend\\QuickApplyBackend\\Controller\\SignInController.cs",
               "RelativeToolTip": "QuickApplyBackend\\Controller\\SignInController.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAuwDwAAAANAAAA",
+              "ViewState": "AQIAACIAAAAAAAAAAAAuwCsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-17T01:26:28.259Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-17T01:26:28.259Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "UserDTO.cs",
               "DocumentMoniker": "C:\\Users\\Duccy\\Documents\\ASP.NET Web API\\QuickApplyBackend\\QuickApplyBackend\\DTO\\UserDTO.cs",
               "RelativeDocumentMoniker": "QuickApplyBackend\\DTO\\UserDTO.cs",
@@ -136,8 +134,7 @@
               "RelativeToolTip": "QuickApplyBackend\\DTO\\UserDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-17T01:24:39.675Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-17T01:24:39.675Z"
             },
             {
               "$type": "Document",
@@ -149,12 +146,11 @@
               "RelativeToolTip": "QuickApplyBackend\\Program.cs",
               "ViewState": "AQIAACUAAAAAAAAAAAAwwDIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T21:56:14.28Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-06T21:56:14.28Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "SavedJobController.cs",
               "DocumentMoniker": "C:\\Users\\Duccy\\Documents\\ASP.NET Web API\\QuickApplyBackend\\QuickApplyBackend\\Controller\\SavedJobController.cs",
               "RelativeDocumentMoniker": "QuickApplyBackend\\Controller\\SavedJobController.cs",
@@ -162,18 +158,17 @@
               "RelativeToolTip": "QuickApplyBackend\\Controller\\SavedJobController.cs",
               "ViewState": "AQIAAC4AAAAAAAAAAAAkwAwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T05:39:47.209Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-09T05:39:47.209Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "SignInService.cs",
               "DocumentMoniker": "C:\\Users\\Duccy\\Documents\\ASP.NET Web API\\QuickApplyBackend\\QuickApplyBackend\\Service\\SignInService.cs",
               "RelativeDocumentMoniker": "QuickApplyBackend\\Service\\SignInService.cs",
               "ToolTip": "C:\\Users\\Duccy\\Documents\\ASP.NET Web API\\QuickApplyBackend\\QuickApplyBackend\\Service\\SignInService.cs",
               "RelativeToolTip": "QuickApplyBackend\\Service\\SignInService.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAD4vz0AAAAdAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwDkAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-17T01:42:30.835Z",
               "EditorCaption": ""
@@ -188,8 +183,7 @@
               "RelativeToolTip": "QuickApplyBackend\\Model\\AppliedJob.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-11T21:08:06.555Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-11T21:08:06.555Z"
             },
             {
               "$type": "Document",
