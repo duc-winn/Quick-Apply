@@ -84,43 +84,51 @@ const darkMode = [
 
 function QuickApplyGoogleMap() {
   const APIKEY: string = import.meta.env.VITE_GOOGLE_MAPS_API_KEY || "";
-
-  // State to store user's location
   const [userLocation, setUserLocation] = useState<{ lat: number; lng: number } | null>(null);
-  const [locationError, setLocationError] = useState<string>("");
 
   useEffect(() => {
-    // Check if geolocation is available
-    if ("geolocation" in navigator) {
-      navigator.geolocation.getCurrentPosition(
-        (position) => {
-          // Success - set user's location
-          setUserLocation({
-            lat: position.coords.latitude,
-            lng: position.coords.longitude,
-          });
-        },
-        (error) => {
-          // Error - fallback to default location
-          console.error("Error getting location:", error.message);
-          setLocationError(error.message);
-          // Fallback to Sydney
-          setUserLocation({ lat: -33.860664, lng: 151.208138 });
-        },
-        {
-          enableHighAccuracy: true,
-          timeout: 10000,
-          maximumAge: 0,
-        }
-      );
-    } else {
-      // Geolocation not supported - use fallback
-      console.error("Geolocation not supported");
-      setUserLocation({ lat: -33.860664, lng: 151.208138 });
-    }
-  }, []);
+  if ("geolocation" in navigator) {
+    // Get initial position
+    navigator.geolocation.getCurrentPosition(
+      (position) => {
+        setUserLocation({
+          lat: position.coords.latitude,
+          lng: position.coords.longitude,
+        });
+      },
+      (error) => {
+        console.error("Error getting initial position:", error.message);
+        setUserLocation({ lat: -33.860664, lng: 151.208138 });
+      },
+      {
+        enableHighAccuracy: true,
+        timeout: 20000,
+        maximumAge: 0,
+      }
+    );
 
-  // Show loading state while getting location
+    // Then watch for updates
+    const watchId = navigator.geolocation.watchPosition(
+      (position) => {
+        setUserLocation({
+          lat: position.coords.latitude,
+          lng: position.coords.longitude,
+        });
+      },
+      (error) => console.error("Error watching position:", error.message),
+      {
+        enableHighAccuracy: true,
+        timeout: 20000,
+        maximumAge: 0,
+      }
+    );
+
+    return () => navigator.geolocation.clearWatch(watchId);
+  } else {
+    setUserLocation({ lat: -33.860664, lng: 151.208138 });
+  }
+}, []);
+
   if (!userLocation) {
     return (
       <div style={{ width: '100%', height: '500px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
@@ -133,8 +141,9 @@ function QuickApplyGoogleMap() {
     <APIProvider apiKey={APIKEY}>
       <Map
         style={{ width: '100%', height: '500px' }}
-        defaultZoom={13}
-        defaultCenter={userLocation} // Use user's current location
+        defaultZoom={15}
+        defaultCenter={userLocation}
+        center={userLocation}  // This updates map center as user moves
         gestureHandling={'greedy'}
         disableDefaultUI={false}
         styles={darkMode}
