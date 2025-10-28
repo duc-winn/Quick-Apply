@@ -7,7 +7,7 @@ function SearchPage(){
                 <div>
                     <div className="flex">
                         <div>
-                            <input className="text-black"/>
+                            <input placeholder="Enter jobs here..."className="text-black"/>
                         </div>
                         <div>
                             <button>search</button>
