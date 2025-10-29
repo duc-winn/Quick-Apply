@@ -86,48 +86,32 @@ function QuickApplyGoogleMap() {
   const APIKEY: string = import.meta.env.VITE_GOOGLE_MAPS_API_KEY || "";
   const [userLocation, setUserLocation] = useState<{ lat: number; lng: number } | null>(null);
 
-  useEffect(() => {
-  if ("geolocation" in navigator) {
-    // Get initial position
-    navigator.geolocation.getCurrentPosition(
-      (position) => {
-        setUserLocation({
-          lat: position.coords.latitude,
-          lng: position.coords.longitude,
-        });
-      },
-      (error) => {
-        console.error("Error getting initial position:", error.message);
-        setUserLocation({ lat: -33.860664, lng: 151.208138 });
-      },
-      {
-        enableHighAccuracy: true,
-        timeout: 20000,
-        maximumAge: 0,
-      }
-    );
-
-    // Then watch for updates
-    const watchId = navigator.geolocation.watchPosition(
-      (position) => {
-        setUserLocation({
-          lat: position.coords.latitude,
-          lng: position.coords.longitude,
-        });
-      },
-      (error) => console.error("Error watching position:", error.message),
-      {
-        enableHighAccuracy: true,
-        timeout: 20000,
-        maximumAge: 0,
-      }
-    );
-
-    return () => navigator.geolocation.clearWatch(watchId);
-  } else {
-    setUserLocation({ lat: -33.860664, lng: 151.208138 });
-  }
-}, []);
+   useEffect(() => {
+    if ("geolocation" in navigator) {
+      // Get the location only once
+      navigator.geolocation.getCurrentPosition(
+        (position) => {
+          setUserLocation({
+            lat: position.coords.latitude,
+            lng: position.coords.longitude,
+          });
+        },
+        (error) => {
+          console.error("Error getting location:", error.message);
+          // Fallback location (e.g. Sydney)
+          setUserLocation({ lat: -33.860664, lng: 151.208138 });
+        },
+        {
+          enableHighAccuracy: true,
+          timeout: 20000,
+          maximumAge: 0,
+        }
+      );
+    } else {
+      console.warn("Geolocation not supported, using fallback.");
+      setUserLocation({ lat: -33.860664, lng: 151.208138 });
+    }
+  }, []);
 
   if (!userLocation) {
     return (
