@@ -5,5 +5,7 @@
 
 .map-display{
   height: 85vh;
-  width: 100%;
+  width: 90%;
+  border-radius: 12px; /* or 8px to match job cards */
+  overflow: hidden; /* this is important so the map corners also clip */
 }
