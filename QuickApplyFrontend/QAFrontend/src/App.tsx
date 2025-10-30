@@ -1,7 +1,7 @@
 import {Route, createBrowserRouter, createRoutesFromElements, RouterProvider} from 'react-router-dom';
 import MainLayout from './Layouts/MainLayout';
 import WelcomePage from './Pages/WelcomePage';
-import SearchPage from './Pages/SearchPage';
+import SearchPage from './Pages/SearchPage/SearchPage';
 import SavedJobsPage from './Pages/SavedJobsPage';
 import SignInPage from './Pages/SignInPage';
 import AppliedJobsPage from './Pages/AppliedJobsPage';

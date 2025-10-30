@@ -1,5 +1,6 @@
-import QuickApplyGoogleMap from "../Components/QuickApplyGoogleMap";
+import QuickApplyGoogleMap from "../../Components/QuickApplyGoogleMap";
 import { useState } from "react";
+import SmallJobDisplay from "../../Components/SmallJobDisplay/SmallJobDisplay";
 
 function SearchPage(){
     const [query, setQuery] = useState(""); // store what user types
@@ -22,7 +23,7 @@ function SearchPage(){
                         </div>
                     </div>
                     <div>
-                        Job listings goes here
+                        <SmallJobDisplay />
                     </div>
                 </div>
                 <div className="map-display">
