@@ -9,7 +9,6 @@
   transition: background-color 0.2s ease;
   margin-top: 10px;
   margin-right: 10px;
-  margin-left: 10px;
 }
 
 .job-card:hover {
@@ -17,10 +16,11 @@
 }
 
 .left-side-div {
-  flex: 0 0 20%; /* slightly smaller to shrink card width */
+  flex: 0 0 20%;
   display: flex; 
-  align-items: flex-start; 
-  padding-right: 12px; /* reduce spacing */
+  align-items: center;  /* ✅ centers logo vertically */
+  justify-content: center; /* optional: centers horizontally too */
+  padding-right: 12px;
 }
 
 .right-side-div {

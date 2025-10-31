@@ -1,6 +1,7 @@
-import QuickApplyGoogleMap from "../../Components/QuickApplyGoogleMap";
+import QuickApplyGoogleMap from "../../Components/QuickApplyGoogleMap/QuickApplyGoogleMap";
 import { useState } from "react";
 import SmallJobDisplay from "../../Components/SmallJobDisplay/SmallJobDisplay";
+import './SearchPage.css';
 
 function SearchPage(){
     const [query, setQuery] = useState(""); // store what user types
@@ -11,26 +12,43 @@ function SearchPage(){
     };
 
     return (
-        <>
-            <div className="flex">
-                <div>
-                    <div className="flex">
-                        <div>
-                            <input onChange={(e) => setQuery(e.target.value)} value={query} placeholder="Enter jobs here..."className="text-black"/>
+        <div className="search-page">
+            <div className="search-page-layout">
+                {/* Left Side - Search and Job Listings */}
+                <div className="search-jobs-section">
+                    {/* Search Bar */}
+                    <div className="search-container">
+                        <div className="search-input-wrapper">
+                            <input 
+                                onChange={(e) => setQuery(e.target.value)} 
+                                value={query} 
+                                placeholder="Search for jobs..."
+                                className="search-input"
+                            />
                         </div>
                         <div>
-                            <button onClick={handleSearch}>search</button>
+                            <button onClick={handleSearch} className="search-button">
+                                Search
+                            </button>
                         </div>
                     </div>
-                    <div>
-                        <SmallJobDisplay />
+
+                    {/* Job Listings */}
+                    <div className="job-listings-container">
+                        <SmallJobDisplay title={query}/>
+                         <SmallJobDisplay title={query}/>
+                          <SmallJobDisplay title={query}/>
+                           <SmallJobDisplay title={query}/>
+                            <SmallJobDisplay title={query}/>
                     </div>
                 </div>
-                <div className="map-display">
+
+                {/* Right Side - Map */}
+                <div className="map-section">
                     <QuickApplyGoogleMap />
                 </div>
             </div>
-        </>
+        </div>
     );
 }
 

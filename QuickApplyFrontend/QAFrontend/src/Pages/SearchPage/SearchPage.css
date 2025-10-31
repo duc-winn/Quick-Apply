@@ -1,0 +1,170 @@
+/* SearchPage.css */
+
+.search-page {
+  height: 100vh;
+  padding: 20px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.search-page-layout {
+  display: flex;
+  gap: 20px;
+  max-width: 1600px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+/* Left Side - Search and Jobs (takes up less space) */
+.search-jobs-section {
+  flex: 0 0 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px; /* Reduced from 20px */
+  height: 100%;
+  overflow: hidden;
+}
+
+.search-container {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  width: 100%;
+  flex-shrink: 0;
+}
+
+.search-input-wrapper {
+  flex: 1;
+  position: relative;
+}
+
+.search-input {
+  width: 100%;
+  padding: 12px 16px; /* Reduced padding slightly */
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #1a1a1a;
+  border: 2px solid #333;
+  border-radius: 10px;
+  outline: none;
+  transition: all 0.2s ease;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.search-input::placeholder {
+  color: #666;
+}
+
+.search-input:focus {
+  border-color: #4a9eff;
+  background-color: #242424;
+  box-shadow: 0 0 0 3px rgba(74, 158, 255, 0.1);
+}
+
+.search-input:hover {
+  border-color: #444;
+}
+
+.search-button {
+  padding: 12px 28px; /* Reduced padding slightly */
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #4a9eff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  white-space: nowrap;
+}
+
+.search-button:hover {
+  background-color: #3a8eef;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(74, 158, 255, 0.3);
+}
+
+.search-button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 6px rgba(74, 158, 255, 0.3);
+}
+
+.job-listings-container {
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-right: 8px;
+  padding-bottom: 20px; /* Add bottom padding for last item */
+  min-height: 0;
+}
+
+/* Custom scrollbar for job listings */
+.job-listings-container::-webkit-scrollbar {
+  width: 8px;
+}
+
+.job-listings-container::-webkit-scrollbar-track {
+  background: #1a1a1a;
+  border-radius: 4px;
+}
+
+.job-listings-container::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 4px;
+}
+
+.job-listings-container::-webkit-scrollbar-thumb:hover {
+  background: #444;
+}
+
+/* Right Side - Map (takes up more than half) */
+.map-section {
+  flex: 1;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .search-page-layout {
+    flex-direction: column;
+  }
+
+  .search-jobs-section {
+    flex: 0 0 auto;
+    height: 60vh;
+  }
+
+  .map-section {
+    flex: 1;
+    min-height: 400px;
+  }
+
+  .job-listings-container {
+    max-height: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .search-page {
+    padding: 12px;
+  }
+
+  .search-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .search-button {
+    width: 100%;
+  }
+
+  .search-jobs-section {
+    height: 50vh;
+  }
+
+  .map-section {
+    min-height: 300px;
+  }
+}

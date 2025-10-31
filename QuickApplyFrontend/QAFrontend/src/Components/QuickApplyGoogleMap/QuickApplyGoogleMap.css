@@ -1,0 +1,6 @@
+.map-display {
+  height: 100%; /* Keep as 100% to fill parent */
+  width: 100%;
+  border-top-left-radius: 12px;
+  overflow: hidden;
+}

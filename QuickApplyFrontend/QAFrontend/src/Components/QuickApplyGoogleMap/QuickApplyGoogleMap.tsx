@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { APIProvider, Map , Marker} from '@vis.gl/react-google-maps';
+import './QuickApplyGoogleMap.css'
 
 const darkMode = [
     { elementType: "geometry", stylers: [{ color: "#242f3e" }] },
@@ -124,7 +125,7 @@ function QuickApplyGoogleMap() {
   return (
     <APIProvider apiKey={APIKEY}>
       <Map
-        style={{ width: '100%', height: '500px' }}
+        style={{ width: '100%', height: '100%' }}
         defaultZoom={15}
         defaultCenter={userLocation}
         center={userLocation}  // This updates map center as user moves
