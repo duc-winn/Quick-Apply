@@ -1,8 +1,8 @@
 import { useState } from "react";
-import { Bookmark } from "lucide-react";
+import { Bookmark, Ticket } from "lucide-react";
 import './SmallJobDisplay.css'
 
-function SmallJobDisplay() {
+function SmallJobDisplay({ title }: { title: string }) {
   const [isHovered, setIsHovered] = useState(false);
   const [isSaved, setIsSaved] = useState(false);
   let isRemote = true;
@@ -26,7 +26,7 @@ function SmallJobDisplay() {
         {/* Row 1: Title and Save Button */}
         <div className="right-side-top-div">
           <h3 className="job-title">
-            Dick Sucker
+            {title}
           </h3>
           <button className={`save-button ${isSaved ? 'saved' : ''}`}
             onClick={(e: React.MouseEvent<HTMLButtonElement>) => {
